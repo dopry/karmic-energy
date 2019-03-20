@@ -1,9 +1,9 @@
 {
-  "title": "Eleventy Netlify Boilerplate",
-  "url": "https://eleventy-netlify-boilerplate.netlify.com",
+  "title": "Karmic Energy",
+  "url": "https://karmic-energy.netlify.com",
   "author": {
-    "name": "Dan Urbanowicz",
-    "email": "dan.urbanowicz@gmail.com",
-    "github": "https://github.com/danurbanowicz"
+    "name": "Darrel O'Pry",
+    "email": "darrel.opry+karmic-energy@gmail.com",
+    "github": "https://github.com/dopry"
   }
 }

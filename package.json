@@ -1,26 +1,27 @@
 {
-  "name": "eleventy-netlify-boilerplate",
+  "name": "karmic-energy",
   "version": "1.0.1",
-  "description": "A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.",
+  "description": "The Karmic Energy Website",
   "scripts": {
     "build": "npx eleventy",
+    "serve": "npx eleventy --serve",
     "watch": "npx eleventy --watch",
     "debug": "DEBUG=* npx eleventy"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danurbanowicz/eleventy-netlify-boilerplate"
+    "url": "https://github.com/dopry/karmic-energy"
   },
   "author": {
-    "name": "Dan Urbanowicz",
-    "email": "dan.urbanowicz@gmail.com",
-    "url": "https://www.danurbanowicz.com/"
+    "name": "Darrel O'Pry",
+    "email": "darrel.opry@gmail.com",
+    "url": "https://darrelopry.com/"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/danurbanowicz/eleventy-netlify-boilerplate/issues"
+    "url": "https://github.com/dopry/karmic-energy/issues"
   },
-  "homepage": "https://github.com/danurbanowicz/eleventy-netlify-boilerplate",
+  "homepage": "https://karmic-energy.netlify.com",
   "devDependencies": {
     "@11ty/eleventy": "^0.7.1",
     "luxon": "^1.11.0",
