@@ -6,27 +6,36 @@ navtitle: Festival Goers
 tags:
   - nav
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+Don't want the hassle of having to bring a generator and deal with gas? Try one of our battery pack and accessory kits, and we'll keep it charged up for you the entire festival, just swing by our booth and swap out your battery any time.
 
-Add a few line breaks in here to test:-
-Capitalize  
-on  
-low  
-hanging  
-fruit  
 
-## Our services
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+# Battery Rentals  
 
-### Blue-sky thinking
+Smaller than a lunchbox and lighter than a feather, our 100WH batteries with 5v, 12v, and 120V connections can keep you phones charged or power a few small camp gadgets.
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+# Accessories
 
-#### Management frameworks
+We have solar panels, boom boxes, and lights that you can use with out batteries.
 
-Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+## BoomBoxes
 
-##### Regulatory convergence
+Want more than a little bluetooth speaker to bang out some tunes at camp? Try one of our weather proof boomboxes. They support bluetooth and Aux in and can be powered directly from one of our battery packs.
 
-Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+* <https://www.amazon.com/dp/B00IAHG1PS>
+* <https://www.amazon.com/dp/B01DT4O8NS>
+
+## Lights
+
+Want some cool LEDs to provide some Ambience and general workl light around your camp, let us know what you want and we'll hook you up with stuff that is ready to run on our batteries.
+
+* Color Changing LED Strips with remote
+* Color Changing RGB LED X-mas lights with remote
+
+# Reservations
+
+We haven't finalized our summer schedule, but we'll make it to any event where there is enough demand to cover our costs. If you're interested in reserving a Battery or BoomBox, fill out the form below.
+
+
+
+\*\* FORM GOES HERE \*\*
