@@ -3,9 +3,14 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 
 # Uncomment below to enable drafts
-# publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 
-media_folder: "static/img" # Media files will be stored in the repo under images/uploads
+
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: karmic-energy
+    api_key: 114519794891739
 
 collections:
   # Our blog posts
