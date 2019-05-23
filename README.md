@@ -10,4 +10,4 @@
 * [Netlify](https://www.netlify.com/)
 * [Netlify CMS](https://www.netlifycms.org/)
 * [Eleventy](https://www.11ty.io)
-* [Bootswatch Darkly](https://bootswatch.com/darkly/)
+* [Vibes](http://vibeshtml.thinqteam.com/page-pricing.html)

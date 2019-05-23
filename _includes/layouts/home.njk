@@ -2,6 +2,102 @@
 layout: layouts/base.njk
 section: home
 ---
-<div class="jumbotron">
-    {{ layoutContent | safe }}
-</div>
+    <div class="content-wrapper">
+        <div class="container-fluid main-wrapper clearfix">
+            <!-- =================================== -->
+            <!-- Different data widgets ============ -->
+            <!-- =================================== -->
+            <div class="widget-list row">
+
+                <div id="top"></div>
+                <!-- Slideshow -->
+                <div class="widget-holder col-md-12 p-0">
+                    <div class="widget-bg">
+                        <div class="widget-body container-fluid">
+                            <div class="row slick-container slick-container-home" id="slider-home-main">
+                                <div class="slick-slider" data-slick='{"fade": true, "dots": true}'>
+
+                                    <div class="slider-item slide-1" data-set-header-skin="light">
+                                        <div class="col-md-6 mx-auto text-center">
+                                            <h2 class="h1 fw-500 text-white lh-10 mr-b-50" id="slide-1-title" data-animation-in="flipInX">Festivals without<br>Fossil Fuels</h2>
+                                            <br />
+                                            <a href="javascript:void(0)" class="btn btn-fancy mt-5 mr-lr-15" data-animation-in="fadeInLeft" data-animation-in-delay="400ms">For your Camp<i class="feather-arrow-right fs-18 ml-3 align-middle"></i> </a>
+                                            <a href="javascript:void(0)" class="btn btn-fancy mt-5 mr-lr-15" data-animation-in="fadeInLeft" data-animation-in-delay="400ms">For your Event<i class="feather-arrow-right fs-18 ml-3 align-middle"></i> </a>
+                                        </div>
+                                        <!-- /.col-md-4 -->
+                                        <img src="https://res.cloudinary.com/karmic-energy/image/upload/v1556728095/aditya-chinchure-494048-unsplash.jpg" id="slide-1-swirl" alt="bg" class="animated-bg-swirl">
+                                    </div>
+                                    <!-- /.slider-item -->
+
+                                    <div class="slider-item slide-2" data-set-header-skin="light">
+                                        <div class="col-md-5 offset-md-1">
+                                            <h2 class="h1 fw-500 text-white mr-b-20 mr-t-30" data-animation-in="fadeInRight" data-animation-in-duration="550ms" id="slide-2-title">Festivals without Fossil Fuels<span class="shape-circle fs-10 bg-tertiary mr-1 animated infinite pulse"></span></h2>
+                                            <br />
+                                            <a href="javascript:void(0)" class="btn btn-fancy mt-5 mr-lr-15" data-animation-in="fadeInLeft" data-animation-in-delay="400ms">For your Camp<i class="feather-arrow-right fs-18 ml-3 align-middle"></i> </a>
+                                            <a href="javascript:void(0)" class="btn btn-fancy mt-5 mr-lr-15" data-animation-in="fadeInLeft" data-animation-in-delay="400ms">For your Event<i class="feather-arrow-right fs-18 ml-3 align-middle"></i> </a>
+                                        </div>
+                                        <!-- /.col-md-4 -->
+                                        <img src="https://res.cloudinary.com/karmic-energy/image/upload/v1558570665/adult-audience-concert-1537637.jpg" alt="bg" class="animated-bg-swirl" id="slide-2-swirl">
+                                    </div>
+                                    <!-- /.slider-item -->
+                                </div>
+                                <!-- /.slick-slider -->
+                            </div>
+                            <!-- /.slick-container -->
+                        </div>
+                        <!-- /.widget-body -->
+                    </div>
+                    <!-- /.widget-bg -->
+                </div>
+                <!-- /.widget-holder -->
+
+            </div>
+            <!-- /.widget-list -->
+        </div>
+        <!-- /.main-wrappper -->
+        <div id="newsletter-modal" class="modal animated fadeInDown" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="row">
+                            <div class="col-sm-7" id="newsletter-modal__content-col">
+                                <p>For your convenience</p>
+                                <p id="newsletter-modal__subtitle">Where do you want to see us?</p>
+                                <form class="form mb-5">
+                                    <div class="form-group">
+                                        <input type="email" name="newsletter_email" id="newsletter_email" placeholder="Enter your email address ..." class="form-control">
+                                    </div>
+                                    <!-- /.form-group -->
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-fancy">Start Free Trial<i class="ml-3 feather-arrow-right"></i>
+                                        </button>
+                                    </div>
+                                    <!-- /.form-group -->
+                                </form>
+                                <form class="w-100">
+                                    <div class="custom-control custom-checkbox custom-control-circle">
+                                        <input type="checkbox" class="custom-control-input" name="disable_newsletter_forever" id="disable_newsletter_forever">
+                                        <label class="custom-control-label" for="disable_newsletter_forever">Do not show popup any more</label>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- /.col-sm-7 -->
+                            <div class="col-sm-5 d-flex flex-column justify-content-end text-center text-white text-uppercase" id="newsletter-modal__side-col"><small class="fw-600 mb-3">Yoga classes for all</small>
+                                <h2 id="newsletter-modal__side-col-title">Own your practice</h2>
+                            </div>
+                            <!-- /.col-sm-5 -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.modal-body -->
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+    </div>
+    <!-- /.content-wrapper -->
+

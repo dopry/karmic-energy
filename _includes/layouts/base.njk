@@ -3,19 +3,34 @@
 
 	{% include "components/head.njk" %}
 
-	<body>
+<body class="home header-overlay" data-header-skin="light">
+<div id="wrapper" class="wrapper">
 
-		<header>
-				
-			{% include "components/nav.njk" %}
-		</header>
+		{% include "components/nav.njk" %}
 
-		<main>
-			{{ layoutContent | safe }}
-		</main>
+     	{{ layoutContent | safe }}
 
-		{% include "components/footer.njk" %}
+    	{% include "components/footer.njk" %}
 
-	</body>
 
+		<!-- JS -->
+		<script src=""></script>
+		{% set js %}
+		{% include "assets/vendors/pacejs/pace.min.js" %}
+		{% include "assets/vendors/jquery.min.js" %}
+		{% endset %}
+		<script>{{ js | jsmin | safe }}</script>
+		<script src="/assets/vendors/aos/aos.js"></script>
+		<script src="/assets/vendors/countUp/countUp.js"></script>
+		<script src="/assets/vendors/stickybits/stickybits.min.js"></script>
+		<script src="/assets/vendors/js-cookie/js.cookie.min.js"></script>
+		<script src="/assets/vendors/lodash/lodash.min.js"></script>
+		<script src="/assets/vendors/magnific-popup/magnific-popup.min.js"></script>
+		<script src="/assets/vendors/animejs/anime.min.js"></script>
+		<script src="/assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+		<script src="/assets/vendors/slick-slider/slick.min.js"></script>
+		<script src="/assets/js/template.js"></script>
+		<script src="/assets/js/custom.js"></script>
+</div>
+</body>
 </html>

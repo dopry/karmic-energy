@@ -1,0 +1,330 @@
+---
+layout: layouts/base.njk
+section: home
+---
+
+<!-- this page is a merger of the about-us page at the top with a pricing tabele below. I diplays a list of products
+we coniser appropriate for the audience the page targets, such as festival goers or promoters.
+-->
+
+   <div class="content-wrapper">
+        <div class="container-fluid main-wrapper clearfix">
+            <!-- =================================== -->
+            <!-- Different data widgets ============ -->
+            <!-- =================================== -->
+            <div class="widget-list row">
+                <div id="about-page__bg-widget" class="widget-holder col-md-12 p-0">
+                    <div class="widget-bg">
+                        <div class="widget-body container"></div>
+                        <!-- /.widget-body -->
+                    </div>
+                    <!-- /.widget-bg -->
+                </div>
+                <!-- /.widget-holder -->
+                <div id="about-page__info-widget" class="widget-holder col-md-12 p-0">
+                    <div class="widget-bg">
+                        <div class="widget-body container">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <h4 class="font-family-base fw-500" id="about-page__info-title">{{title}}</h4>
+                                </div>
+                                <!-- /.col-md-5 -->
+                                <div class="col-md-7">
+                                    {{ layoutContent | safe }}
+                                </div>
+                                <!-- /.col-md-7 -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.widget-body -->
+                    </div>
+                    <!-- /.widget-bg -->
+                </div>
+                <!-- /.widget-holder -->
+                <div id="about-page__gallery-widget" class="widget-holder col-md-12 p-0">
+                    <div class="widget-bg">
+                        <div class="widget-body container">
+                            <div class="row pos-relative" id="about-page__gallery-row">
+                                <div class="col-md-4" data-aos="fade-up" data-aos-duration="600">
+                                    <figure>
+                                        <a href="#">
+                                            <img src="https://via.placeholder.com/500" alt="Gallery 3">
+                                        </a>
+                                    </figure>
+                                </div>
+                                <!-- /.col-md-4 -->
+                                <div class="col-md-4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">
+                                    <figure>
+                                        <a href="#">
+                                            <img src="https://via.placeholder.com/500" alt="Gallery 3">
+                                        </a>
+                                    </figure>
+                                </div>
+                                <!-- /.col-md-4 -->
+                                <div class="col-md-4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+                                    <figure>
+                                        <a href="#">
+                                            <img src="https://via.placeholder.com/500" alt="Gallery 3">
+                                        </a>
+                                    </figure>
+                                </div>
+                                <!-- /.col-md-4 -->
+                            </div>
+                            <!-- /.row -->
+                            <div class="row">
+                                <div class="col-md-10 mx-auto pos-relative" id="about-page__accordion">
+                                    <h4 class="font-family-base fw-500" id="about-page__accordion-title">our process</h4>
+                                    <div class="accordion accordion-minimal" id="acc-4">
+                                        <div class="card">
+                                            <div class="card-header" id="acc-heading-41">
+                                                <h5 class="mb-0"><button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#acc-collapse-41" aria-expanded="true" aria-controls="acc-collapse-41">Excepteur sint occaecat cupidatat</button></h5>
+                                            </div>
+                                            <div id="acc-collapse-41" class="collapse show" aria-labelledby="acc-heading-41" data-parent="#acc-4">
+                                                <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</div>
+                                            </div>
+                                            <!-- /.collapse -->
+                                        </div>
+                                        <!-- /.card -->
+                                        <div class="card">
+                                            <div class="card-header" id="acc-heading-42">
+                                                <h5 class="mb-0"><button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#acc-collapse-42" aria-expanded="false" aria-controls="acc-collapse-42">Sunt in culpa qui officia deserunt mollit</button></h5>
+                                            </div>
+                                            <div id="acc-collapse-42" class="collapse" aria-labelledby="acc-heading-42" data-parent="#acc-4">
+                                                <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</div>
+                                            </div>
+                                            <!-- /.collapse -->
+                                        </div>
+                                        <!-- /.card -->
+                                        <div class="card">
+                                            <div class="card-header" id="acc-heading-43">
+                                                <h5 class="mb-0"><button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#acc-collapse-43" aria-expanded="false" aria-controls="acc-collapse-43">Qui officia deserunt mollit anim id est laborum</button></h5>
+                                            </div>
+                                            <!-- /.card-reader -->
+                                            <div id="acc-collapse-43" class="collapse" aria-labelledby="acc-heading-43" data-parent="#acc-4">
+                                                <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</div>
+                                            </div>
+                                            <!-- /.collapse -->
+                                        </div>
+                                        <!-- /.card -->
+                                    </div>
+                                    <!-- /.accordion-minimal -->
+                                </div>
+                                <!-- /.col-md-10 -->
+                            </div>
+                            <!-- /.row -->
+                            <div class="row">
+                                <div class="col-md-10 mx-auto" id="about-page__counter">
+                                    <div class="row">
+                                        <div class="col-md-3" data-aos="fade-in">
+                                            <div class="counter-box counter-box-line-under"><span class="counter-box-title">Trainers</span>  <span class="counter" data-plugin-options='{"end": 28}'></span>
+                                            </div>
+                                        </div>
+                                        <!-- /.col-md-3 -->
+                                        <div class="col-md-3" data-aos="fade-in" data-aos-delay="50">
+                                            <div class="counter-box counter-box-line-under"><span class="counter-box-title">Awards</span>  <span class="counter" data-plugin-options='{"end": 16}'></span>
+                                            </div>
+                                        </div>
+                                        <!-- /.col-md-3 -->
+                                        <div class="col-md-3" data-aos="fade-in" data-aos-delay="100">
+                                            <div class="counter-box counter-box-line-under"><span class="counter-box-title">Classes</span>  <span class="counter" data-plugin-options='{"end": 42}'></span>
+                                            </div>
+                                        </div>
+                                        <!-- /.col-md-3 -->
+                                        <div class="col-md-3" data-aos="fade-in" data-aos-delay="150">
+                                            <div class="counter-box counter-box-line-under"><span class="counter-box-title">Yogis</span>  <span class="counter" data-plugin-options='{"end": 276}'></span>
+                                            </div>
+                                        </div>
+                                        <!-- /.col-md-3 -->
+                                    </div>
+                                    <!-- /.row -->
+                                </div>
+                                <!-- /.col-md-10 -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.widget-body -->
+                    </div>
+                    <!-- /.widget-bg -->
+                </div>
+                <!-- /.widget-holder -->
+                <div id="about-page__team-widget" class="widget-holder col-md-12 p-0">
+                    <div class="widget-bg">
+                        <div class="widget-body container">
+                            <div class="row" id="about-page__team-row">
+                                <div class="col-md-4">
+                                    <div class="team team-hover-fancy">
+                                        <figure>
+                                            <img src="https://via.placeholder.com/530x620" alt="Marsha Hoffman">
+                                            <h4 class="team-name-side">Marsha Hoffman</h4>
+                                        </figure>
+                                        <div class="team-content">
+                                            <ul class="social-list">
+                                                <li><a href="#"><i class="unicon-facebook-1"></i></a>
+                                                </li>
+                                                <li><a href="#"><i class="unicon-twitter-1"></i></a>
+                                                </li>
+                                                <li><a href="#"><i class="unicon-instagram"></i></a>
+                                                </li>
+                                            </ul>
+                                            <h4 class="team-name"><a href="#">Marsha Hoffman</a></h4>
+                                            <h6 class="team-title">Teaching Vinayasa Flow</h6>
+                                        </div>
+                                        <!-- /.team-content -->
+                                    </div>
+                                    <!-- /.team -->
+                                </div>
+                                <!-- /.col-md-4 -->
+                                <div class="col-md-4">
+                                    <div class="team team-hover-fancy">
+                                        <figure>
+                                            <img src="https://via.placeholder.com/530x620" alt="Maxime Lowe">
+                                            <h4 class="team-name-side">Maxime Lowe</h4>
+                                        </figure>
+                                        <div class="team-content">
+                                            <ul class="social-list">
+                                                <li><a href="#"><i class="unicon-facebook-1"></i></a>
+                                                </li>
+                                                <li><a href="#"><i class="unicon-twitter-1"></i></a>
+                                                </li>
+                                                <li><a href="#"><i class="unicon-instagram"></i></a>
+                                                </li>
+                                            </ul>
+                                            <h4 class="team-name"><a href="#">Maxime Lowe</a></h4>
+                                            <h6 class="team-title">Teaching Morning Flow</h6>
+                                        </div>
+                                        <!-- /.team-content -->
+                                    </div>
+                                    <!-- /.team -->
+                                </div>
+                                <!-- /.col-md-4 -->
+                                <div class="col-md-4">
+                                    <div class="team team-hover-fancy">
+                                        <figure>
+                                            <img src="https://via.placeholder.com/530x620" alt="Syvia Harvey">
+                                            <h4 class="team-name-side">Sylvia Harvey</h4>
+                                        </figure>
+                                        <div class="team-content">
+                                            <ul class="social-list">
+                                                <li><a href="#"><i class="unicon-facebook-1"></i></a>
+                                                </li>
+                                                <li><a href="#"><i class="unicon-twitter-1"></i></a>
+                                                </li>
+                                                <li><a href="#"><i class="unicon-instagram"></i></a>
+                                                </li>
+                                            </ul>
+                                            <h4 class="team-name"><a href="#">Sylvia Harvey</a></h4>
+                                            <h6 class="team-title">Teaching Hath Flow</h6>
+                                        </div>
+                                        <!-- /.team-content -->
+                                    </div>
+                                    <!-- /.team -->
+                                </div>
+                                <!-- /.col-md-4 -->
+                            </div>
+                            <!-- /.row -->
+                            <div class="row" id="about-page__client-row">
+                                <div class="col-md-3" data-aos="fade-in">
+                                    <figure class="element-client element-client-border">
+                                        <a href="#">
+                                            <img src="https://via.placeholder.com/300x150/FFFFFF/EEEEEE" height="150" width="300" alt="">
+                                        </a>
+                                    </figure>
+                                </div>
+                                <!-- /.col-md-3 -->
+                                <div class="col-md-3" data-aos="fade-in" data-aos-delay="50">
+                                    <figure class="element-client element-client-border">
+                                        <a href="#">
+                                            <img src="https://via.placeholder.com/300x150/FFFFFF/EEEEEE" height="150" width="300" alt="">
+                                        </a>
+                                    </figure>
+                                </div>
+                                <!-- /.col-md-3 -->
+                                <div class="col-md-3" data-aos="fade-in" data-aos-delay="100">
+                                    <figure class="element-client element-client-border">
+                                        <a href="#">
+                                            <img src="https://via.placeholder.com/300x150/FFFFFF/EEEEEE" height="150" width="300" alt="">
+                                        </a>
+                                    </figure>
+                                </div>
+                                <!-- /.col-md-3 -->
+                                <div class="col-md-3" data-aos="fade-in" data-aos-delay="150">
+                                    <figure class="element-client element-client-border">
+                                        <a href="#">
+                                            <img src="https://via.placeholder.com/300x150/FFFFFF/EEEEEE" height="150" width="300" alt="">
+                                        </a>
+                                    </figure>
+                                </div>
+                                <!-- /.col-md-3 -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.widget-body -->
+                    </div>
+                    <!-- /.widget-bg -->
+                </div>
+                <!-- /.widget-holder -->
+                <!-- Call to Action -->
+                <div class="widget-holder col-md-12 p-0">
+                    <div class="widget-bg">
+                        <div class="widget-body container-fluid">
+                            <div class="row no-gutters">
+                                <div class="col"><a href="#" class="btn btn-block btn-cta">Get started for just $29 per month</a>
+                                </div>
+                                <!-- /.col-md-12 -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.widget-body -->
+                    </div>
+                    <!-- /.widget-bg -->
+                </div>
+                <!-- /.widget-holder -->
+            </div>
+            <!-- /.widget-list -->
+        </div>
+        <!-- /.main-wrappper -->
+        <div id="newsletter-modal" class="modal animated fadeInDown" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="row">
+                            <div class="col-sm-7" id="newsletter-modal__content-col">
+                                <p>For your convenience</p>
+                                <p id="newsletter-modal__subtitle">Try us out - cancel any time</p>
+                                <form class="form mb-5">
+                                    <div class="form-group">
+                                        <input type="email" name="newsletter_email" id="newsletter_email" placeholder="Enter your email address ..." class="form-control">
+                                    </div>
+                                    <!-- /.form-group -->
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-fancy">Start Free Trial<i class="ml-3 feather-arrow-right"></i>
+                                        </button>
+                                    </div>
+                                    <!-- /.form-group -->
+                                </form>
+                                <form class="w-100">
+                                    <div class="custom-control custom-checkbox custom-control-circle">
+                                        <input type="checkbox" class="custom-control-input" name="disable_newsletter_forever" id="disable_newsletter_forever">
+                                        <label class="custom-control-label" for="disable_newsletter_forever">Do not show popup any more</label>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- /.col-sm-7 -->
+                            <div class="col-sm-5 d-flex flex-column justify-content-end text-center text-white text-uppercase" id="newsletter-modal__side-col"><small class="fw-600 mb-3">Yoga classes for all</small>
+                                <h2 id="newsletter-modal__side-col-title">Own your practice</h2>
+                            </div>
+                            <!-- /.col-sm-5 -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.modal-body -->
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+    </div>
+    <!-- /.content-wrapper -->

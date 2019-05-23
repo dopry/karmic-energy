@@ -52,9 +52,31 @@ module.exports = function(eleventyConfig) {
   });
 
   // Don't process folders with static assets e.g. images
-  eleventyConfig.addPassthroughCopy("static/img");
+
   eleventyConfig.addPassthroughCopy("admin");
-  eleventyConfig.addPassthroughCopy("_includes/assets/");
+  eleventyConfig.addPassthroughCopy("assets/css");
+  eleventyConfig.addPassthroughCopy("assets/css/vendors");
+  eleventyConfig.addPassthroughCopy("assets/css/vendors/bootstrap");
+  eleventyConfig.addPassthroughCopy("assets/demo");
+  eleventyConfig.addPassthroughCopy("assets/demo/home");
+  eleventyConfig.addPassthroughCopy("assets/img");
+  eleventyConfig.addPassthroughCopy("assets/img/KarmicEnergy");
+  eleventyConfig.addPassthroughCopy("assets/js");
+  eleventyConfig.addPassthroughCopy("assets/vendors");
+  eleventyConfig.addPassthroughCopy("assets/vendors/slick-slider");
+  eleventyConfig.addPassthroughCopy("assets/vendors/aos");
+  eleventyConfig.addPassthroughCopy("assets/vendors/feather-icons");
+  eleventyConfig.addPassthroughCopy("assets/vendors/feather-icons/fonts");
+  eleventyConfig.addPassthroughCopy("assets/vendors/stickybits");
+  eleventyConfig.addPassthroughCopy("assets/vendors/js-cookie");
+  eleventyConfig.addPassthroughCopy("assets/vendors/lodash");
+  eleventyConfig.addPassthroughCopy("assets/vendors/magnific-popup");
+  eleventyConfig.addPassthroughCopy("assets/vendors/animejs");
+  eleventyConfig.addPassthroughCopy("assets/vendors/bootstrap/js");
+  eleventyConfig.addPassthroughCopy("assets/vendors/slick-slider");
+  eleventyConfig.addPassthroughCopy("assets/vendors/unifato-icons");
+  eleventyConfig.addPassthroughCopy("assets/vendors/unifato-icons/fonts");
+
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");

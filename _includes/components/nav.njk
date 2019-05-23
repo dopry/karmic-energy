@@ -1,20 +1,88 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="{{ '/' | url }}"><img alt="{{ metadata.title }}" src="/static/img/KarmicEnergy-logo.svg" /></a>
-  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="navbar-collapse collapse" id="navbarColor03" style="">
-    <ul class="navbar-nav mr-auto">
-      {%- for nav in collections.nav | sort(attribute="date") -%}
-      <li class="nav-item">
-        <a class="nav-link" href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a>
-      </li>
-      {%- endfor -%}
-    </ul>
-    {# <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-    </form> #}
-  </div>
-</nav>
+<div class="navbar header-navbar sticky-wrapper" id="navbar" role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+    <!-- Logo Area -->
+    <div class="navbar-header">
+        <a href="/index.html" class="navbar-brand">
+            <img src="/assets/img/KarmicEnergy/logo-wide.svg" alt="Karmic Energy Lotus Logo" class="logo">
+        </a>
+    </div>
+    <!-- /.navbar-header -->
+    <!-- Main Navigation -->
+    <nav class="nav-container d-none d-lg-block" aria-hidden="true" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+        <ul class="nav site-navigation" id="navbar-menu-1">
+          {%- for nav in collections.nav | sort(attribute="date") -%}
+          <li class="menu-item {% if nav.url == page.url%}current-menu-item{% endif %}">
+            <a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>
+          </li>
+          {%- endfor -%}
+            <!-- /.menu-item-has-children -->
+        </ul>
+        <!-- /.site-navigation -->
+    </nav>
+    <!-- /.nav-container -->
+    <!-- Main Navigation for tablet and mobiles -->
+    <nav class="nav-container d-block d-lg-none" aria-hidden="true" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+        <ul class="nav site-navigation" id="navbar-menu-2">
+            <li class="menu-item menu-right-sidebar"><a href="javascript: void(0);" id="sidebar-toggle-2" class="sidebar-toggle" data-template-sidebar-trigger="#right-sidebar-2" data-template-open="false"><i class="feather-menu"></i></a>
+                <div id="right-sidebar-2" class="sidebar right-sidebar"
+                data-template-open="false">
+                    <div class="right-sidebar-body">
+                        <div class="clearfix mb-0">
+                            <button class="close"><i class="feather-x"></i>
+                            </button>
+                        </div>
+                        <ul class="menu">
+                            {%- for nav in collections.nav | sort(attribute="date") -%}
+                            <li class="menu-item {% if nav.url == page.url%}current-menu-item{% endif %}">
+                              <a href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>
+                            </li>
+                            {%- endfor -%}
+                            <!-- /.menu-item-has-children -->
+                        </ul>
+                    </div>
+                    <!-- /.right-sidebar-body -->
+                </div>
+                <!-- /.menu-right-sidebar -->
+            </li>
+        </ul>
+    </nav>
+
+    <ul class="nav site-navigation site-navigation-extras d-none d-xl-inline-flex">
+        <li class="menu-item menu-right-sidebar"><a href="javascript: void(0);" id="sidebar-toggle-1" class="sidebar-toggle" data-template-sidebar-trigger="#right-sidebar-1" data-template-open="false"><i class="feather-menu"></i></a>
+            <div id="right-sidebar-1" class="sidebar right-sidebar" data-template-open="false">
+                <div class="right-sidebar-body">
+                    <div class="clearfix mb-0">
+                        <button class="close"><i class="feather-x"></i>
+                        </button>
+                    </div>
+                    <ul class="menu">
+                        <li class="menu-item"><a href="/about-us.html">About Us</a></li>
+                        <li class="menu-item"><a href="/faq.html">F.A.Q</a></li>
+                    </ul>
+                    <div class="widget text-widget">
+                        <p><a href="mailto: shoutout@KarmicEnergy.co">Shout Out</a></p>
+                    </div>
+                    <!-- /.widget -->
+                    <ul class="social-list social-list-hover-tertiary">
+                        <li><a href="#"><i class="unicon-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="unicon-instagram"></i></a>
+                        </li>
+                        <li><a href="mailto: shoutout@KarmicEnergy.co"><i class="feather-mail"></i></a>
+                        </li>
+                    </ul>
+                    <!-- /.social-list -->
+
+                    <div class="widget text-widget fs-13">
+                        <p>&copy; 2019 KarmicEnergy, LLC. All rights reserved.</p>
+                    </div>
+                    <!-- /.widget -->
+                </div>
+                <!-- /.right-sidebar-body -->
+            </div>
+            <!-- /.menu-right-sidebar -->
+        </li>
+        </ul>
+        <!-- /.site-navigation-extras -->
+    </div>
+    <!-- /.navbar -->
