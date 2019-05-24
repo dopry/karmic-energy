@@ -1,0 +1,19 @@
+<!doctype html>
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+
+	{% include "components/head.njk" %}
+
+<body class="home header-overlay" data-header-skin="light">
+<div id="wrapper" class="wrapper">
+
+		{% include "components/nav.njk" %}
+
+     	{{ layoutContent | safe }}
+
+    	{% include "components/footer.njk" %}
+
+		<!-- JS -->
+		<script src="/assets/scripts.js"></script>
+</div>
+</body>
+</html>

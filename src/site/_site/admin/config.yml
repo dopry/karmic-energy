@@ -1,0 +1,67 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+# Uncomment below to enable drafts
+publish_mode: editorial_workflow
+
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: karmic-energy
+    api_key: 114519794891739
+
+collections:
+  # Our blog posts
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Post" # Used in the UI
+    folder: "posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+      - { label: "Body", name: "body", widget: "markdown" }
+  # Our pages e.g. About
+  - name: "pages"
+    label: "Page"
+    folder: "pages"
+    create: false # Change to true to allow editors to create new pages
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Permalink", name: "permalink", widget: "string" }
+      - { label: "Navigation Title", name: "navtitle", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "hidden", default: "nav" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: package
+    label: "Package"
+    folder: "packages"
+    slug: "{{slug}}/"
+    fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "Price Per Day", name: "price_2_days", widget: "string" }
+        - { label: "Body", name: "body", widget: "markdown" }
+        - { label: "Buy Link Text", name: "buy_link_text", widget: "string"}
+        - { label: "Buy Link HREF", name: "buy_link_href", widget: "string"}
+  - name: audience-packages
+    label: "Audience Packages"
+    folder: "audience-packages"
+    slug: "{{slug}}/"
+    fields:
+      - { lebel: "Hero Image", name: "hero", widget: "image", allow_multiple: false }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Products"
+        name: 'products'
+        widget: list
+        fields:
+          - label: "Packages"
+            name: "packages"
+            widget: "relation"
+            collection: "package"
+            searchFields: "title"
+            valueField: "title"

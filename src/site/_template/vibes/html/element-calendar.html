@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="assets/css/pace.css">
+    <script src="assets/vendors/pacejs/pace.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
+    <title>Calendar</title>
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Prata:400%7CPoppins:300,300i,400,400i,500,600%7CPT+Serif:400i" rel="stylesheet" type="text/css">
+    <link href="assets/vendors/feather-icons/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/vendors/vibes-icons/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/vendors/unifato-icons/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/vendors/slick-slider/slick.css" rel="stylesheet" type="text/css">
+    <link href="assets/vendors/aos/aos.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/custom.css" rel="stylesheet" type="text/css">
+</head>
+
+<body data-header-skin="dark">
+    <div id="wrapper" class="wrapper">
+        <div class="navbar header-navbar sticky-wrapper" id="navbar" role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+            <!-- Logo Area -->
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">
+                    <img src="assets/img/logo-2.png" alt="" class="light-logo" width="200" height="80">
+                    <img src="assets/img/logo-light.png" alt="" class="dark-logo" width="200" height="80">
+                    <img src="assets/img/logo-light.png" alt="" class="sticky-logo" width="200" height="80">
+                    <!-- <p>Vibes</p> -->
+                </a>
+            </div>
+            <!-- /.navbar-header -->
+            <!-- Main Navigation -->
+            <nav class="nav-container d-none d-lg-block" aria-hidden="true" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+                <ul class="nav site-navigation" id="navbar-menu-1">
+                    <li class="menu-item current-menu-item"><a href="index.html">Home</a>
+                    </li>
+                    <li class="menu-item"><a href="page-schedule.html">Schedule</a>
+                    </li>
+                    <li class="menu-item"><a href="blog.html">Blog</a>
+                    </li>
+                    <li class="menu-item menu-item-has-children uni-megamenu"><a href="javascript:void(0);">Elements</a>
+                        <ul class="container sub-menu row">
+                            <li class="menu-item menu-item-has-children col-md-3"><a href="javascript:void(0);">Classic</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="element-accordion.html">Accordions &amp; Toggles</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-tabs.html">Tabs</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-buttons.html">Buttons</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-cta.html">Call to Action</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-divider.html">Divider</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-calendar.html">Calendar</a>
+                                    </li>
+                                </ul>
+                                <!-- /.sub-menu -->
+                            </li>
+                            <!-- /.col-md-3 -->
+                            <li class="menu-item menu-item-has-children col-md-3"><a href="javascript:void(0);">Infographics</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="element-countdown.html">Countdown</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-typography.html">Typography</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-icon-boxes.html">Icon Boxes</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-counter-box.html">Counter Box</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-progressbar.html">Progress Bar</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-pricing-table.html">Pricing Tables</a>
+                                    </li>
+                                </ul>
+                                <!-- /.sub-menu -->
+                            </li>
+                            <!-- /.col-md-3 -->
+                            <li class="menu-item menu-item-has-children col-md-3"><a href="javascript:void(0);">Presentation</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="element-blogpost-thumbs.html">Blogpost Thumbs</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-team.html">Team Shortcode</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-timeline.html">Timeline</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-gallery.html">Gallery</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-blockquotes.html">Blockquote</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-forms.html">Forms</a>
+                                    </li>
+                                </ul>
+                                <!-- /.sub-menu -->
+                            </li>
+                            <!-- /.col-md-3 -->
+                            <li class="menu-item menu-item-has-children col-md-3"><a href="javascript:void(0);">Others</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="element-clients.html">Clients</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-events.html">Events</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-contact-info.html">Contact Info</a>
+                                    </li>
+                                </ul>
+                                <!-- /.sub-menu -->
+                            </li>
+                            <!-- /.col-md-3 -->
+                        </ul>
+                        <!-- /.row -->
+                    </li>
+                    <!-- /.uni-megamenu -->
+                    <li class="menu-item menu-item-has-children"><a href="javascript:void(0)">Pages</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="page-about.html">About Us</a>
+                            </li>
+                            <li class="menu-item"><a href="page-faq.html">F.A.Q</a>
+                            </li>
+                            <li class="menu-item"><a href="page-pricing.html">Pricing Page</a>
+                            </li>
+                            <li class="menu-item"><a href="page-contact.html">Contact Us</a>
+                            </li>
+                            <li class="menu-item"><a href="page-coming-soon.html">Coming Soon</a>
+                            </li>
+                            <li class="menu-item"><a href="error-404.html">404 Page</a>
+                            </li>
+                        </ul>
+                        <!-- /.sub-menu -->
+                    </li>
+                    <!-- /.menu-item-has-children -->
+                    <li class="menu-item menu-item-has-children"><a href="shop.html">Shop</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="shop.html">Products List</a>
+                            </li>
+                            <li class="menu-item"><a href="shop-single.html">Single Product</a>
+                            </li>
+                            <li class="menu-item"><a href="shop-cart.html">Cart</a>
+                            </li>
+                            <li class="menu-item"><a href="shop-checkout.html">Checkout</a>
+                            </li>
+                        </ul>
+                        <!-- /.sub-menu -->
+                    </li>
+                    <!-- /.menu-item-has-children -->
+                </ul>
+                <!-- /.site-navigation -->
+            </nav>
+            <!-- /.nav-container -->
+            <!-- Main Navigation for tablet and mobiles -->
+            <nav class="nav-container d-block d-lg-none" aria-hidden="true" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+                <ul class="nav site-navigation" id="navbar-menu-2">
+                    <li class="menu-item menu-right-sidebar"><a href="javascript: void(0);" id="sidebar-toggle-2" class="sidebar-toggle" data-template-sidebar-trigger="#right-sidebar-2" data-template-open="false"><i class="feather-menu"></i></a>
+                        <div id="right-sidebar-2" class="sidebar right-sidebar"
+                        data-template-open="false">
+                            <div class="right-sidebar-body">
+                                <div class="clearfix mb-0">
+                                    <button class="close"><i class="feather-x"></i>
+                                    </button>
+                                </div>
+                                <ul class="menu">
+                                    <li class="menu-item"><a href="index.html">Home</a>
+                                    </li>
+                                    <li class="menu-item"><a href="page-schedule.html">Schedule</a>
+                                    </li>
+                                    <li class="menu-item"><a href="blog.html">Blog</a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children"><a href="javascript:void(0)">Classic ELements</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item"><a href="element-accordion.html">Accordions &amp; Toggles</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-tabs.html">Tabs</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-buttons.html">Buttons</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-cta.html">Call to Action</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-divider.html">Divider</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-calendar.html">Calendar</a>
+                                            </li>
+                                        </ul>
+                                        <!-- /.sub-menu -->
+                                    </li>
+                                    <!-- /.menu-item-has-children -->
+                                    <li class="menu-item menu-item-has-children"><a href="javascript:void(0);">Infographics</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item"><a href="element-countdown.html">Countdown</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-typography.html">Typography</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-icon-boxes.html">Icon Boxes</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-counter-box.html">Counter Box</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-progressbar.html">Progress Bar</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-pricing-table.html">Pricing Tables</a>
+                                            </li>
+                                        </ul>
+                                        <!-- /.sub-menu -->
+                                    </li>
+                                    <!-- /.menu-item-has-children -->
+                                    <li class="menu-item menu-item-has-children"><a href="javascript:void(0);">Presentation</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item"><a href="element-blogpost-thumbs.html">Blogpost Thumbs</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-team.html">Team Shortcode</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-timeline.html">Timeline</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-gallery.html">Gallery</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-blockquotes.html">Blockquote</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-forms.html">Forms</a>
+                                            </li>
+                                        </ul>
+                                        <!-- /.sub-menu -->
+                                    </li>
+                                    <!-- /.menu-item-has-children -->
+                                    <li class="menu-item menu-item-has-children"><a href="javascript:void(0);">Other Elements</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item"><a href="element-clients.html">Clients</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-events.html">Events</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-contact-info.html">Contact Info</a>
+                                            </li>
+                                        </ul>
+                                        <!-- /.sub-menu -->
+                                    </li>
+                                    <!-- /.menu-item-has-children -->
+                                    <li class="menu-item menu-item-has-children"><a href="javascript:void(0)">Pages</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item"><a href="page-about.html">About Us</a>
+                                            </li>
+                                            <li class="menu-item"><a href="page-faq.html">F.A.Q</a>
+                                            </li>
+                                            <li class="menu-item"><a href="page-pricing.html">Pricing Page</a>
+                                            </li>
+                                            <li class="menu-item"><a href="page-contact.html">Contact Us</a>
+                                            </li>
+                                            <li class="menu-item"><a href="page-coming-soon.html">Coming Soon</a>
+                                            </li>
+                                            <li class="menu-item"><a href="error-404.html">404 Page</a>
+                                            </li>
+                                        </ul>
+                                        <!-- /.sub-menu -->
+                                    </li>
+                                    <!-- /.menu-item-has-children -->
+                                    <li class="menu-item menu-item-has-children"><a href="shop.html">Shop</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item"><a href="shop.html">Products List</a>
+                                            </li>
+                                            <li class="menu-item"><a href="shop-single.html">Single Product</a>
+                                            </li>
+                                            <li class="menu-item"><a href="shop-cart.html">Cart</a>
+                                            </li>
+                                            <li class="menu-item"><a href="shop-checkout.html">Checkout</a>
+                                            </li>
+                                        </ul>
+                                        <!-- /.sub-menu -->
+                                    </li>
+                                    <!-- /.menu-item-has-children -->
+                                </ul>
+                            </div>
+                            <!-- /.right-sidebar-body -->
+                        </div>
+                        <!-- /.menu-right-sidebar -->
+                    </li>
+                </ul>
+            </nav>
+            <!-- Search & Mini Cart -->
+            <ul class="nav site-navigation site-navigation-extras d-none d-xl-inline-flex">
+                <li id="cart-content" class="menu-item menu-item-has-children uni-megamenu-cart"><a id="cart-dropdown" href="shop-cart.html"><span class="position-relative mx-2"><i class="feather-shopping-bag"></i> <span class="badge header-cart-fragments bg-tertiary items-counter">2</span> </span><!-- /.position-relative --> Cart</a>
+                    <div
+                    class="sub-menu widget_shopping_cart_content">
+                        <header>Your Cart: <span class="items-counter">2</span> items</header>
+                        <ul class="list-unstyled woocommerce-mini-cart cart_list product_list_widget">
+                            <li class="media mini_cart_item">
+                                <figure class="float-left">
+                                    <img width="60" height="60" src="https://via.placeholder.com/60" alt=""> <a href="javascript:void(0)" class="btn-remove remove remove_from_cart_button"><i class="feather-x"></i></a>
+                                </figure>
+                                <div class="media-body clearfix"><a href="shop-single.html" class="item-name">Eco Yoga Mat </a><span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>28.00</span>
+                                    </span>
+                                </div>
+                                <!-- /.media-box -->
+                            </li>
+                            <!-- /.mini_cart_item -->
+                            <li class="media mini_cart_item">
+                                <figure class="float-left">
+                                    <img width="60" height="60" src="https://via.placeholder.com/60" alt=""> <a href="javascript:void(0)" class="btn-remove remove remove_from_cart_button"><i class="feather-x"></i></a>
+                                </figure>
+                                <div class="media-body clearfix"><a href="shop-single.html" class="item-name">Eco 500ml Bottle </a><span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>18.00</span>
+                                    </span>
+                                </div>
+                                <!-- /.media-box -->
+                            </li>
+                            <!-- /.mini_cart_item -->
+                        </ul>
+                        <!-- /.product_list_widget -->
+                        <p class="woocommerce-mini-cart__total"><strong>Subtotal</strong>  <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>46.00</span>
+                        </p>
+                        <p class="woocommerce-mini-cart__buttons buttons clearfix"><a href="shop-cart.html" class="button wc-forward btn btn-default">View Cart </a><a href="shop-checkout.html" class="button wc-forward checkout btn btn-fancy">Checkout</a>
+                        </p>
+                        <div class="empty-message">
+                            <p class="mb-0">No product in cart.</p>
+                        </div>
+        </div>
+        <!-- /.sub-menu.mini-cart-view -->
+        </li>
+        <!-- /.uni-megamenu-cart -->
+        <li class="menu-item menu-item-search"><a href="javascript: void(0);" class="menu-search-trigger"><i class="feather-search mr-1"></i> Search</a>
+            <form action="javascript:void(0)" method="get" class="menu-search">
+                <div class="menu-search-backdrop"></div>
+                <div class="form-group">
+                    <input type="search" class="form-control" placeholder="Search the site"> <a href="javascript:void(0);" class="menu-search-close"><i class="feather-x"></i> Cancel</a>
+                </div>
+                <!-- /.form-group -->
+            </form>
+            <!-- /.menu-search -->
+        </li>
+        <li class="menu-item menu-right-sidebar"><a href="javascript: void(0);" id="sidebar-toggle-1" class="sidebar-toggle" data-template-sidebar-trigger="#right-sidebar-1" data-template-open="false"><i class="feather-menu"></i></a>
+            <div id="right-sidebar-1" class="sidebar right-sidebar" data-template-open="false">
+                <div class="right-sidebar-body">
+                    <div class="clearfix mb-0">
+                        <button class="close"><i class="feather-x"></i>
+                        </button>
+                    </div>
+                    <ul class="menu">
+                        <li class="menu-item"><a href="javascript:void(0)">About Us</a>
+                        </li>
+                        <li class="menu-item menu-item-has-children"><a href="javascript:void(0)">Portfolio</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="javascript:void(0)">About Us</a>
+                                </li>
+                                <li class="menu-item"><a href="javascript:void(0)">Our Team</a>
+                                </li>
+                                <li class="menu-item"><a href="javascript:void(0)">Pricing</a>
+                                </li>
+                                <li class="menu-item"><a href="javascript:void(0)">F.A.Q</a>
+                                </li>
+                            </ul>
+                            <!-- /.sub-menu -->
+                        </li>
+                        <!-- /.menu-item-has-children -->
+                        <li class="menu-item"><a href="javascript:void(0)">Our Services</a>
+                        </li>
+                        <li class="menu-item"><a href="javascript:void(0)">Affiliate</a>
+                        </li>
+                        <li class="menu-item"><a href="javascript:void(0)">Our Services</a>
+                        </li>
+                    </ul>
+                    <div class="widget text-widget">
+                        <figure class="mb-4">
+                            <a href="#">
+                                <img src="assets/demo/home/reach-us.jpg" alt="">
+                            </a>
+                        </figure>
+                        <p>E: info@yogastudio.com
+                            <br>P: +1 987 654 32 10
+                            <br>A: 1467, Mulbery Street, Houston
+                            <br><a href="#" class="headings-color text-underline">Google Map</a>
+                        </p>
+                    </div>
+                    <!-- /.widget -->
+                    <ul class="social-list social-list-hover-tertiary">
+                        <li><a href="#"><i class="unicon-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="unicon-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="unicon-instagram"></i></a>
+                        </li>
+                        <li><a href="#"><i class="feather-mail"></i></a>
+                        </li>
+                    </ul>
+                    <!-- /.social-list -->
+                    <figure class="mb-0">
+                        <img src="assets/demo/payment-options.jpg" alt="">
+                    </figure>
+                    <div class="widget text-widget fs-13">
+                        <p>&copy; 2019 Unifato. All rights reserved.</p>
+                    </div>
+                    <!-- /.widget -->
+                </div>
+                <!-- /.right-sidebar-body -->
+            </div>
+            <!-- /.menu-right-sidebar -->
+        </li>
+        </ul>
+        <!-- /.site-navigation-extras -->
+    </div>
+    <!-- /.navbar -->
+    <div class="content-wrapper">
+        <!-- Page Title Area -->
+        <div class="page-title">
+            <div class="container">
+                <h1 class="entry-title heading-effect"><span class="title">Calendar</span></h1>
+                <nav class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+                    <meta itemprop="numberOfItems" content="2">
+                    <meta itemprop="itemListOrder" content="Ascending">
+                    <ol class="breadcrumb">
+                        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="breadcrumb-item"><a href="index.html"><span itemprop="name">Home</span></a>
+                            <meta itemprop="position" content="1">
+                        </li>
+                        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="breadcrumb-item active"><span itemprop="name">Calendar</span>
+                            <meta itemprop="position" content="2">
+                        </li>
+                    </ol>
+                    <!-- /.breadcrumb -->
+                </nav>
+                <!-- /.breadcrumbs -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.page-title -->
+        <div class="container-fluid main-wrapper clearfix">
+            <!-- =================================== -->
+            <!-- Different data widgets ============ -->
+            <!-- =================================== -->
+            <div class="widget-list row">
+                <!-- Calendar -->
+                <div class="widget-holder col-md-12 pb-5">
+                    <div class="widget-bg">
+                        <div class="widget-body container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="timetable">
+                                        <table class="table table-bordered table-responsive text-center">
+                                            <thead>
+                                                <tr>
+                                                    <th>Time</th>
+                                                    <th>Monday</th>
+                                                    <th>Tuesday</th>
+                                                    <th>Wednesday</th>
+                                                    <th>Thursday</th>
+                                                    <th>Friday</th>
+                                                    <th>Saturday</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td><span class="time">09:00</span>
+                                                    </td>
+                                                    <td>
+                                                        <h6 class="title">Morning Flow</h6><small class="subtitle">Maxine lowe</small>
+                                                    </td>
+                                                    <td>
+                                                        <h6 class="title">Morning Flow</h6><small class="subtitle">Maxine lowe</small>
+                                                    </td>
+                                                    <td>
+                                                        <h6 class="title">Morning Flow</h6><small class="subtitle">Maxine lowe</small>
+                                                    </td>
+                                                    <td>&nbsp;</td>
+                                                    <td>
+                                                        <h6 class="title">Morning Flow</h6><small class="subtitle">Maxine lowe</small>
+                                                    </td>
+                                                    <td>
+                                                        <h6 class="title">Morning Flow</h6><small class="subtitle">Maxine lowe</small>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="time">12:00</span>
+                                                    </td>
+                                                    <td>&nbsp;</td>
+                                                    <td>
+                                                        <h6 class="title">Vinayasa Flow</h6><small class="subtitle">Tracy Vacura</small>
+                                                    </td>
+                                                    <td>
+                                                        <h6 class="title">Hath Flow</h6><small class="subtitle">Shirley Krohn</small>
+                                                    </td>
+                                                    <td>
+                                                        <h6 class="title">Hath Flow</h6><small class="subtitle">Shirley Krohn</small>
+                                                    </td>
+                                                    <td>&nbsp;</td>
+                                                    <td>
+                                                        <h6 class="title">Hath Flow</h6><small class="subtitle">Shirley Krohn</small>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="time">15:00</span>
+                                                    </td>
+                                                    <td>
+                                                        <h6 class="title">Vinayasa Flow</h6><small class="subtitle">Tracy Vacura</small>
+                                                    </td>
+                                                    <td>&nbsp;</td>
+                                                    <td>
+                                                        <h6 class="title">Vinayasa Tantra Flow</h6><small class="subtitle">Greg Hines</small>
+                                                    </td>
+                                                    <td>&nbsp;</td>
+                                                    <td>
+                                                        <h6 class="title">Vinayasa Flow</h6><small class="subtitle">Tracy Vacura</small>
+                                                    </td>
+                                                    <td>&nbsp;</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="time">15:00</span>
+                                                    </td>
+                                                    <td>&nbsp;</td>
+                                                    <td>
+                                                        <h6 class="title">Kundalini Yoga</h6><small class="subtitle">Chelsea Schmitz</small>
+                                                    </td>
+                                                    <td>&nbsp;</td>
+                                                    <td>
+                                                        <h6 class="title">Kundalini Yoga</h6><small class="subtitle">Chelsea Schmitz</small>
+                                                    </td>
+                                                    <td>
+                                                        <h6 class="title">Kundalini Yoga</h6><small class="subtitle">Chelsea Schmitz</small>
+                                                    </td>
+                                                    <td>
+                                                        <h6 class="title">Kundalini Yoga</h6><small class="subtitle">Chelsea Schmitz</small>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <!-- /.timetable -->
+                                </div>
+                                <!-- /.col-md-12 -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.widget-body -->
+                    </div>
+                    <!-- /.widget-bg -->
+                </div>
+                <!-- /.widget-holder -->
+            </div>
+            <!-- /.widget-list -->
+        </div>
+        <!-- /.main-wrappper -->
+        <div id="newsletter-modal" class="modal animated fadeInDown" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="row">
+                            <div class="col-sm-7" id="newsletter-modal__content-col">
+                                <p>For your convenience</p>
+                                <p id="newsletter-modal__subtitle">Try us out - cancel any time</p>
+                                <form class="form mb-5">
+                                    <div class="form-group">
+                                        <input type="email" name="newsletter_email" id="newsletter_email" placeholder="Enter your email address ..." class="form-control">
+                                    </div>
+                                    <!-- /.form-group -->
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-fancy">Start Free Trial<i class="ml-3 feather-arrow-right"></i>
+                                        </button>
+                                    </div>
+                                    <!-- /.form-group -->
+                                </form>
+                                <form class="w-100">
+                                    <div class="custom-control custom-checkbox custom-control-circle">
+                                        <input type="checkbox" class="custom-control-input" name="disable_newsletter_forever" id="disable_newsletter_forever">
+                                        <label class="custom-control-label" for="disable_newsletter_forever">Do not show popup any more</label>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- /.col-sm-7 -->
+                            <div class="col-sm-5 d-flex flex-column justify-content-end text-center text-white text-uppercase" id="newsletter-modal__side-col"><small class="fw-600 mb-3">Yoga classes for all</small>
+                                <h2 id="newsletter-modal__side-col-title">Own your practice</h2>
+                            </div>
+                            <!-- /.col-sm-5 -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.modal-body -->
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+    </div>
+    <!-- /.content-wrapper -->
+    <div class="widget-holder col-md-12 p-0" id="main-footer">
+        <div class="widget-bg text-white">
+            <div class="widget-body container-fluid">
+                <div class="row">
+                    <div class="col-md-10 mx-auto text-center">
+                        <figure class="mr-b-40">
+                            <a href="index.html">
+                                <img src="assets/img/logo-footer.png" alt="">
+                            </a>
+                        </figure>
+                        <!-- Footer Navigation -->
+                        <nav class="nav-container mr-b-20">
+                            <ul class="generic-nav">
+                                <li class="menu-item current-menu-item"><a href="index.html">Home</a>
+                                </li>
+                                <li class="menu-item"><a href="trainers.html">Trainers</a>
+                                </li>
+                                <li class="menu-item"><a href="classes.html">Classes</a>
+                                </li>
+                                <li class="menu-item"><a href="schedule.html">Schedule</a>
+                                </li>
+                                <li class="menu-item"><a href="shop.html">Shop</a>
+                                </li>
+                                <li class="menu-item"><a href="blog.html">Blog</a>
+                                </li>
+                            </ul>
+                            <!-- /.generic-nav -->
+                        </nav>
+                        <!-- /.nav-container -->
+                        <!-- Social Links -->
+                        <ul class="social-list social-list-colored-circle">
+                            <li><a href="twitter.com" class="bg-twitter"><i class="unicon-twitter"></i></a>
+                            </li>
+                            <li><a href="facebook.com" class="bg-facebook"><i class="unicon-facebook"></i></a>
+                            </li>
+                            <li><a href="instagram.com" class="bg-instagram"><i class="unicon-instagram"></i></a>
+                            </li>
+                            <li><a href="youtube.com" class="bg-youtube"><i class="unicon-youtube"></i></a>
+                            </li>
+                        </ul>
+                        <!-- /.social-list -->
+                    </div>
+                    <!-- /.col-md-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.widget-body -->
+        </div>
+        <!-- /.widget-bg -->
+    </div>
+    <!-- /.widget-holder -->
+    <div class="widget-holder col-md-12 p-0" id="main-subfooter">
+        <div class="widget-bg text-white">
+            <div class="widget-body container-fluid">
+                <div class="row">
+                    <div class="col-md-10 mx-auto text-center">
+                        <div class="text-center">
+                            <p class="fs-12 text-muted">Unifato © 2019 All rights reserved. Terms of Use and Privacy Policy.</p>
+                        </div>
+                    </div>
+                    <!-- /.col-md-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.widget-body -->
+        </div>
+        <!-- /.widget-bg -->
+    </div>
+    <!-- /.widget-holder -->
+    </div>
+    <!--/ #wrapper -->
+    <!-- Scripts -->
+    <script src="assets/vendors/jquery.min.js"></script>
+    <script src="assets/vendors/aos/aos.js"></script>
+    <script src="assets/vendors/stickybits/stickybits.min.js"></script>
+    <script src="assets/vendors/js-cookie/js.cookie.min.js"></script>
+    <script src="assets/vendors/lodash/lodash.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/vendors/slick-slider/slick.min.js"></script>
+    <script src="assets/js/template.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="http://localhost:35729/livereload.js"></script>
+</body>
+
+</html>

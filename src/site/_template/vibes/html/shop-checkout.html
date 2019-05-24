@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="assets/css/pace.css">
+    <script src="assets/vendors/pacejs/pace.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
+    <title>Checkout</title>
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Prata:400%7CPoppins:300,300i,400,400i,500,600%7CPT+Serif:400i" rel="stylesheet" type="text/css">
+    <link href="assets/vendors/feather-icons/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/vendors/vibes-icons/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/vendors/unifato-icons/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/vendors/slick-slider/slick.css" rel="stylesheet" type="text/css">
+    <link href="assets/vendors/aos/aos.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/custom.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="page woocommerce-checkout woocommerce-page" data-header-skin="dark">
+    <div id="wrapper" class="wrapper">
+        <div class="navbar header-navbar sticky-wrapper" id="navbar" role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+            <!-- Logo Area -->
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">
+                    <img src="assets/img/logo-2.png" alt="" class="light-logo" width="200" height="80">
+                    <img src="assets/img/logo-light.png" alt="" class="dark-logo" width="200" height="80">
+                    <img src="assets/img/logo-light.png" alt="" class="sticky-logo" width="200" height="80">
+                    <!-- <p>Vibes</p> -->
+                </a>
+            </div>
+            <!-- /.navbar-header -->
+            <!-- Main Navigation -->
+            <nav class="nav-container d-none d-lg-block" aria-hidden="true" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+                <ul class="nav site-navigation" id="navbar-menu-1">
+                    <li class="menu-item current-menu-item"><a href="index.html">Home</a>
+                    </li>
+                    <li class="menu-item"><a href="page-schedule.html">Schedule</a>
+                    </li>
+                    <li class="menu-item"><a href="blog.html">Blog</a>
+                    </li>
+                    <li class="menu-item menu-item-has-children uni-megamenu"><a href="javascript:void(0);">Elements</a>
+                        <ul class="container sub-menu row">
+                            <li class="menu-item menu-item-has-children col-md-3"><a href="javascript:void(0);">Classic</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="element-accordion.html">Accordions &amp; Toggles</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-tabs.html">Tabs</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-buttons.html">Buttons</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-cta.html">Call to Action</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-divider.html">Divider</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-calendar.html">Calendar</a>
+                                    </li>
+                                </ul>
+                                <!-- /.sub-menu -->
+                            </li>
+                            <!-- /.col-md-3 -->
+                            <li class="menu-item menu-item-has-children col-md-3"><a href="javascript:void(0);">Infographics</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="element-countdown.html">Countdown</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-typography.html">Typography</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-icon-boxes.html">Icon Boxes</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-counter-box.html">Counter Box</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-progressbar.html">Progress Bar</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-pricing-table.html">Pricing Tables</a>
+                                    </li>
+                                </ul>
+                                <!-- /.sub-menu -->
+                            </li>
+                            <!-- /.col-md-3 -->
+                            <li class="menu-item menu-item-has-children col-md-3"><a href="javascript:void(0);">Presentation</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="element-blogpost-thumbs.html">Blogpost Thumbs</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-team.html">Team Shortcode</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-timeline.html">Timeline</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-gallery.html">Gallery</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-blockquotes.html">Blockquote</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-forms.html">Forms</a>
+                                    </li>
+                                </ul>
+                                <!-- /.sub-menu -->
+                            </li>
+                            <!-- /.col-md-3 -->
+                            <li class="menu-item menu-item-has-children col-md-3"><a href="javascript:void(0);">Others</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="element-clients.html">Clients</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-events.html">Events</a>
+                                    </li>
+                                    <li class="menu-item"><a href="element-contact-info.html">Contact Info</a>
+                                    </li>
+                                </ul>
+                                <!-- /.sub-menu -->
+                            </li>
+                            <!-- /.col-md-3 -->
+                        </ul>
+                        <!-- /.row -->
+                    </li>
+                    <!-- /.uni-megamenu -->
+                    <li class="menu-item menu-item-has-children"><a href="javascript:void(0)">Pages</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="page-about.html">About Us</a>
+                            </li>
+                            <li class="menu-item"><a href="page-faq.html">F.A.Q</a>
+                            </li>
+                            <li class="menu-item"><a href="page-pricing.html">Pricing Page</a>
+                            </li>
+                            <li class="menu-item"><a href="page-contact.html">Contact Us</a>
+                            </li>
+                            <li class="menu-item"><a href="page-coming-soon.html">Coming Soon</a>
+                            </li>
+                            <li class="menu-item"><a href="error-404.html">404 Page</a>
+                            </li>
+                        </ul>
+                        <!-- /.sub-menu -->
+                    </li>
+                    <!-- /.menu-item-has-children -->
+                    <li class="menu-item menu-item-has-children"><a href="shop.html">Shop</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="shop.html">Products List</a>
+                            </li>
+                            <li class="menu-item"><a href="shop-single.html">Single Product</a>
+                            </li>
+                            <li class="menu-item"><a href="shop-cart.html">Cart</a>
+                            </li>
+                            <li class="menu-item"><a href="shop-checkout.html">Checkout</a>
+                            </li>
+                        </ul>
+                        <!-- /.sub-menu -->
+                    </li>
+                    <!-- /.menu-item-has-children -->
+                </ul>
+                <!-- /.site-navigation -->
+            </nav>
+            <!-- /.nav-container -->
+            <!-- Main Navigation for tablet and mobiles -->
+            <nav class="nav-container d-block d-lg-none" aria-hidden="true" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+                <ul class="nav site-navigation" id="navbar-menu-2">
+                    <li class="menu-item menu-right-sidebar"><a href="javascript: void(0);" id="sidebar-toggle-2" class="sidebar-toggle" data-template-sidebar-trigger="#right-sidebar-2" data-template-open="false"><i class="feather-menu"></i></a>
+                        <div id="right-sidebar-2" class="sidebar right-sidebar"
+                        data-template-open="false">
+                            <div class="right-sidebar-body">
+                                <div class="clearfix mb-0">
+                                    <button class="close"><i class="feather-x"></i>
+                                    </button>
+                                </div>
+                                <ul class="menu">
+                                    <li class="menu-item"><a href="index.html">Home</a>
+                                    </li>
+                                    <li class="menu-item"><a href="page-schedule.html">Schedule</a>
+                                    </li>
+                                    <li class="menu-item"><a href="blog.html">Blog</a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children"><a href="javascript:void(0)">Classic ELements</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item"><a href="element-accordion.html">Accordions &amp; Toggles</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-tabs.html">Tabs</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-buttons.html">Buttons</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-cta.html">Call to Action</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-divider.html">Divider</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-calendar.html">Calendar</a>
+                                            </li>
+                                        </ul>
+                                        <!-- /.sub-menu -->
+                                    </li>
+                                    <!-- /.menu-item-has-children -->
+                                    <li class="menu-item menu-item-has-children"><a href="javascript:void(0);">Infographics</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item"><a href="element-countdown.html">Countdown</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-typography.html">Typography</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-icon-boxes.html">Icon Boxes</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-counter-box.html">Counter Box</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-progressbar.html">Progress Bar</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-pricing-table.html">Pricing Tables</a>
+                                            </li>
+                                        </ul>
+                                        <!-- /.sub-menu -->
+                                    </li>
+                                    <!-- /.menu-item-has-children -->
+                                    <li class="menu-item menu-item-has-children"><a href="javascript:void(0);">Presentation</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item"><a href="element-blogpost-thumbs.html">Blogpost Thumbs</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-team.html">Team Shortcode</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-timeline.html">Timeline</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-gallery.html">Gallery</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-blockquotes.html">Blockquote</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-forms.html">Forms</a>
+                                            </li>
+                                        </ul>
+                                        <!-- /.sub-menu -->
+                                    </li>
+                                    <!-- /.menu-item-has-children -->
+                                    <li class="menu-item menu-item-has-children"><a href="javascript:void(0);">Other Elements</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item"><a href="element-clients.html">Clients</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-events.html">Events</a>
+                                            </li>
+                                            <li class="menu-item"><a href="element-contact-info.html">Contact Info</a>
+                                            </li>
+                                        </ul>
+                                        <!-- /.sub-menu -->
+                                    </li>
+                                    <!-- /.menu-item-has-children -->
+                                    <li class="menu-item menu-item-has-children"><a href="javascript:void(0)">Pages</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item"><a href="page-about.html">About Us</a>
+                                            </li>
+                                            <li class="menu-item"><a href="page-faq.html">F.A.Q</a>
+                                            </li>
+                                            <li class="menu-item"><a href="page-pricing.html">Pricing Page</a>
+                                            </li>
+                                            <li class="menu-item"><a href="page-contact.html">Contact Us</a>
+                                            </li>
+                                            <li class="menu-item"><a href="page-coming-soon.html">Coming Soon</a>
+                                            </li>
+                                            <li class="menu-item"><a href="error-404.html">404 Page</a>
+                                            </li>
+                                        </ul>
+                                        <!-- /.sub-menu -->
+                                    </li>
+                                    <!-- /.menu-item-has-children -->
+                                    <li class="menu-item menu-item-has-children"><a href="shop.html">Shop</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item"><a href="shop.html">Products List</a>
+                                            </li>
+                                            <li class="menu-item"><a href="shop-single.html">Single Product</a>
+                                            </li>
+                                            <li class="menu-item"><a href="shop-cart.html">Cart</a>
+                                            </li>
+                                            <li class="menu-item"><a href="shop-checkout.html">Checkout</a>
+                                            </li>
+                                        </ul>
+                                        <!-- /.sub-menu -->
+                                    </li>
+                                    <!-- /.menu-item-has-children -->
+                                </ul>
+                            </div>
+                            <!-- /.right-sidebar-body -->
+                        </div>
+                        <!-- /.menu-right-sidebar -->
+                    </li>
+                </ul>
+            </nav>
+            <!-- Search & Mini Cart -->
+            <ul class="nav site-navigation site-navigation-extras d-none d-xl-inline-flex">
+                <li id="cart-content" class="menu-item menu-item-has-children uni-megamenu-cart"><a id="cart-dropdown" href="shop-cart.html"><span class="position-relative mx-2"><i class="feather-shopping-bag"></i> <span class="badge header-cart-fragments bg-tertiary items-counter">2</span> </span><!-- /.position-relative --> Cart</a>
+                    <div
+                    class="sub-menu widget_shopping_cart_content">
+                        <header>Your Cart: <span class="items-counter">2</span> items</header>
+                        <ul class="list-unstyled woocommerce-mini-cart cart_list product_list_widget">
+                            <li class="media mini_cart_item">
+                                <figure class="float-left">
+                                    <img width="60" height="60" src="https://via.placeholder.com/60" alt=""> <a href="javascript:void(0)" class="btn-remove remove remove_from_cart_button"><i class="feather-x"></i></a>
+                                </figure>
+                                <div class="media-body clearfix"><a href="shop-single.html" class="item-name">Eco Yoga Mat </a><span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>28.00</span>
+                                    </span>
+                                </div>
+                                <!-- /.media-box -->
+                            </li>
+                            <!-- /.mini_cart_item -->
+                            <li class="media mini_cart_item">
+                                <figure class="float-left">
+                                    <img width="60" height="60" src="https://via.placeholder.com/60" alt=""> <a href="javascript:void(0)" class="btn-remove remove remove_from_cart_button"><i class="feather-x"></i></a>
+                                </figure>
+                                <div class="media-body clearfix"><a href="shop-single.html" class="item-name">Eco 500ml Bottle </a><span class="quantity">1 × <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>18.00</span>
+                                    </span>
+                                </div>
+                                <!-- /.media-box -->
+                            </li>
+                            <!-- /.mini_cart_item -->
+                        </ul>
+                        <!-- /.product_list_widget -->
+                        <p class="woocommerce-mini-cart__total"><strong>Subtotal</strong>  <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">$</span>46.00</span>
+                        </p>
+                        <p class="woocommerce-mini-cart__buttons buttons clearfix"><a href="shop-cart.html" class="button wc-forward btn btn-default">View Cart </a><a href="shop-checkout.html" class="button wc-forward checkout btn btn-fancy">Checkout</a>
+                        </p>
+                        <div class="empty-message">
+                            <p class="mb-0">No product in cart.</p>
+                        </div>
+        </div>
+        <!-- /.sub-menu.mini-cart-view -->
+        </li>
+        <!-- /.uni-megamenu-cart -->
+        <li class="menu-item menu-item-search"><a href="javascript: void(0);" class="menu-search-trigger"><i class="feather-search mr-1"></i> Search</a>
+            <form action="javascript:void(0)" method="get" class="menu-search">
+                <div class="menu-search-backdrop"></div>
+                <div class="form-group">
+                    <input type="search" class="form-control" placeholder="Search the site"> <a href="javascript:void(0);" class="menu-search-close"><i class="feather-x"></i> Cancel</a>
+                </div>
+                <!-- /.form-group -->
+            </form>
+            <!-- /.menu-search -->
+        </li>
+        <li class="menu-item menu-right-sidebar"><a href="javascript: void(0);" id="sidebar-toggle-1" class="sidebar-toggle" data-template-sidebar-trigger="#right-sidebar-1" data-template-open="false"><i class="feather-menu"></i></a>
+            <div id="right-sidebar-1" class="sidebar right-sidebar" data-template-open="false">
+                <div class="right-sidebar-body">
+                    <div class="clearfix mb-0">
+                        <button class="close"><i class="feather-x"></i>
+                        </button>
+                    </div>
+                    <ul class="menu">
+                        <li class="menu-item"><a href="javascript:void(0)">About Us</a>
+                        </li>
+                        <li class="menu-item menu-item-has-children"><a href="javascript:void(0)">Portfolio</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="javascript:void(0)">About Us</a>
+                                </li>
+                                <li class="menu-item"><a href="javascript:void(0)">Our Team</a>
+                                </li>
+                                <li class="menu-item"><a href="javascript:void(0)">Pricing</a>
+                                </li>
+                                <li class="menu-item"><a href="javascript:void(0)">F.A.Q</a>
+                                </li>
+                            </ul>
+                            <!-- /.sub-menu -->
+                        </li>
+                        <!-- /.menu-item-has-children -->
+                        <li class="menu-item"><a href="javascript:void(0)">Our Services</a>
+                        </li>
+                        <li class="menu-item"><a href="javascript:void(0)">Affiliate</a>
+                        </li>
+                        <li class="menu-item"><a href="javascript:void(0)">Our Services</a>
+                        </li>
+                    </ul>
+                    <div class="widget text-widget">
+                        <figure class="mb-4">
+                            <a href="#">
+                                <img src="assets/demo/home/reach-us.jpg" alt="">
+                            </a>
+                        </figure>
+                        <p>E: info@yogastudio.com
+                            <br>P: +1 987 654 32 10
+                            <br>A: 1467, Mulbery Street, Houston
+                            <br><a href="#" class="headings-color text-underline">Google Map</a>
+                        </p>
+                    </div>
+                    <!-- /.widget -->
+                    <ul class="social-list social-list-hover-tertiary">
+                        <li><a href="#"><i class="unicon-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="unicon-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="unicon-instagram"></i></a>
+                        </li>
+                        <li><a href="#"><i class="feather-mail"></i></a>
+                        </li>
+                    </ul>
+                    <!-- /.social-list -->
+                    <figure class="mb-0">
+                        <img src="assets/demo/payment-options.jpg" alt="">
+                    </figure>
+                    <div class="widget text-widget fs-13">
+                        <p>&copy; 2019 Unifato. All rights reserved.</p>
+                    </div>
+                    <!-- /.widget -->
+                </div>
+                <!-- /.right-sidebar-body -->
+            </div>
+            <!-- /.menu-right-sidebar -->
+        </li>
+        </ul>
+        <!-- /.site-navigation-extras -->
+    </div>
+    <!-- /.navbar -->
+    <div class="content-wrapper">
+        <!-- Page Title Area -->
+        <div class="page-title text-white text-left" style="background-image: url(https://via.placeholder.com/1920x500/000000/111111)">
+            <div class="container">
+                <h1 class="entry-title heading-effect"><span class="title">Checkout</span></h1>
+                <nav class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+                    <meta itemprop="numberOfItems" content="2">
+                    <meta itemprop="itemListOrder" content="Ascending">
+                    <ol class="breadcrumb">
+                        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="breadcrumb-item"><a href="index.html"><span itemprop="name">Home</span></a>
+                            <meta itemprop="position" content="1">
+                        </li>
+                        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="breadcrumb-item active"><span itemprop="name">Checkout</span>
+                            <meta itemprop="position" content="2">
+                        </li>
+                    </ol>
+                    <!-- /.breadcrumb -->
+                </nav>
+                <!-- /.breadcrumbs -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.page-title -->
+        <div class="container main-wrapper clearfix">
+            <!-- =================================== -->
+            <!-- Different data widgets ============ -->
+            <!-- =================================== -->
+            <div class="widget-list row">
+                <main class="col-lg-12 main-content clearfix" role="main">
+                    <article class="page type-page">
+                        <div class="entry-content">
+                            <div class="woocommerce">
+                                <form class="checkout woocommerce-checkout">
+                                    <div class="col2-set" id="customer_details">
+                                        <div class="col-1">
+                                            <div class="woocommerce-billing-fields">
+                                                <h3>Billing details</h3>
+                                                <div class="woocommerce-billing-fields__field-wrapper">
+                                                    <p class="form-row form-row-first validate-required">
+                                                        <label>First name&nbsp;<abbr class="required" title="required">*</abbr>
+                                                        </label><span class="woocommerce-input-wrapper"><input type="text" class="input-text"></span>
+                                                    </p>
+                                                    <p class="form-row form-row-last validate-required">
+                                                        <label>Last name&nbsp;<abbr class="required" title="required">*</abbr>
+                                                        </label><span class="woocommerce-input-wrapper"><input type="text" class="input-text"></span>
+                                                    </p>
+                                                    <p class="form-row form-row-wide">
+                                                        <label>Company name&nbsp;<span class="optional">(optional)</span>
+                                                        </label><span class="woocommerce-input-wrapper"><input type="text" class="input-text"></span>
+                                                    </p>
+                                                    <p class="form-row form-row-wide address-field validate-required">
+                                                        <label>Country&nbsp;<abbr class="required" title="required">*</abbr>
+                                                        </label><span class="woocommerce-input-wrapper"><select class="country_to_state country_select"><option value="">Select a country&hellip;</option><option value="AU">Australia</option><option value="CA">Canada</option><option value="FR">France</option><option value="UK">United Kingdom</option><option value="US">United States</option></select></span>
+                                                    </p>
+                                                    <p class="form-row form-row-wide address-field validate-required">
+                                                        <label>Street address&nbsp;<abbr class="required" title="required">*</abbr>
+                                                        </label><span class="woocommerce-input-wrapper"><input type="text" class="input-text"></span>
+                                                    </p>
+                                                    <p class="form-row form-row-wide address-field">
+                                                        <label class="screen-reader-text">Apartment, suite, unit etc.&nbsp;<span class="optional">(optional)</span>
+                                                        </label><span class="woocommerce-input-wrapper"><input type="text" class="input-text"></span>
+                                                    </p>
+                                                    <p class="form-row form-row-wide address-field validate-required">
+                                                        <label>Town / City&nbsp;<abbr class="required" title="required">*</abbr>
+                                                        </label><span class="woocommerce-input-wrapper"><input type="text" class="input-text"></span>
+                                                    </p>
+                                                    <p class="form-row form-row-wide address-field validate-required validate-state">
+                                                        <label>State / County&nbsp;<abbr class="required" title="required">*</abbr>
+                                                        </label><span class="woocommerce-input-wrapper"><select class="state_select"><option value="">Select a state&hellip;</option><option value="AL">Alabama</option><option value="AK">Alaska</option><option value="AZ">Arizona</option><option value="AR">Arkansas</option></select></span>
+                                                    </p>
+                                                    <p class="form-row form-row-wide address-field validate-required validate-postcode">
+                                                        <label>Postcode / ZIP&nbsp;<abbr class="required" title="required">*</abbr>
+                                                        </label><span class="woocommerce-input-wrapper"><input type="text" class="input-text"></span>
+                                                    </p>
+                                                    <p class="form-row form-row-wide validate-phone">
+                                                        <label>Phone&nbsp;<span class="optional">(optional)</span>
+                                                        </label><span class="woocommerce-input-wrapper"><input type="tel" class="input-text"></span>
+                                                    </p>
+                                                    <p class="form-row form-row-wide validate-required validate-email">
+                                                        <label>Email address&nbsp;<abbr class="required" title="required">*</abbr>
+                                                        </label><span class="woocommerce-input-wrapper"><input type="email" class="input-text"></span>
+                                                    </p>
+                                                </div>
+                                                <!-- /.woocommerce-billing-fields__field-wrapper -->
+                                            </div>
+                                            <!-- /.woocommerce-billing-fields -->
+                                        </div>
+                                        <!-- /.col-1 -->
+                                        <div class="col-2">
+                                            <div class="woocommerce-shipping-fields">
+                                                <h3 id="ship-to-different-address"><label class="woocommerce-form__label checkbox"><span>Shipping Address</span></label></h3>
+                                                <div class="shipping_address">
+                                                    <div class="woocommerce-shipping-fields__field-wrapper">
+                                                        <p class="form-row form-row-first validate-required" id="shipping_first_name_field">
+                                                            <label>First name&nbsp;<abbr class="required" title="required">*</abbr>
+                                                            </label><span class="woocommerce-input-wrapper"><input type="text" class="input-text"></span>
+                                                        </p>
+                                                        <p class="form-row form-row-last validate-required">
+                                                            <label>Last name&nbsp;<abbr class="required" title="required">*</abbr>
+                                                            </label><span class="woocommerce-input-wrapper"><input type="text" class="input-text"></span>
+                                                        </p>
+                                                        <p class="form-row form-row-wide">
+                                                            <label>Company name&nbsp;<span class="optional">(optional)</span>
+                                                            </label><span class="woocommerce-input-wrapper"><input type="text" class="input-text"></span>
+                                                        </p>
+                                                        <p class="form-row form-row-wide address-field update_totals_on_change validate-required">
+                                                            <label>Country&nbsp;<abbr class="required" title="required">*</abbr>
+                                                            </label><span class="woocommerce-input-wrapper"><select class="country_to_state country_select"><option value="">Select a country&hellip;</option><option value="AU">Australia</option><option value="CA">Canada</option><option value="FR">France</option><option value="UK">United Kingdom</option><option value="US">United States</option></select></span>
+                                                        </p>
+                                                        <p class="form-row form-row-wide address-field validate-required">
+                                                            <label>Street address&nbsp;<abbr class="required" title="required">*</abbr>
+                                                            </label><span class="woocommerce-input-wrapper"><input type="text" class="input-text"></span>
+                                                        </p>
+                                                        <p class="form-row form-row-wide address-field">
+                                                            <label class="screen-reader-text">Apartment, suite, unit etc.&nbsp;<span class="optional">(optional)</span>
+                                                            </label><span class="woocommerce-input-wrapper"><input type="text" class="input-text" placeholder="Apartment, suite, unit etc. (optional)"></span>
+                                                        </p>
+                                                        <p class="form-row form-row-wide address-field validate-required">
+                                                            <label>Town / City&nbsp;<abbr class="required" title="required">*</abbr>
+                                                            </label><span class="woocommerce-input-wrapper"><input type="text" class="input-text"></span>
+                                                        </p>
+                                                        <p class="form-row form-row-wide address-field validate-required validate-state">
+                                                            <label>State / County&nbsp;<abbr class="required" title="required">*</abbr>
+                                                            </label><span class="woocommerce-input-wrapper"><select class="state_select"><option value="">Select a state&hellip;</option><option value="AL">Alabama</option><option value="AK">Alaska</option><option value="AZ">Arizona</option><option value="AR">Arkansas</option></select></span>
+                                                        </p>
+                                                        <p class="form-row form-row-wide address-field validate-required validate-postcode">
+                                                            <label>Postcode / ZIP&nbsp;<abbr class="required" title="required">*</abbr>
+                                                            </label><span class="woocommerce-input-wrapper"><input type="text" class="input-text"></span>
+                                                        </p>
+                                                    </div>
+                                                    <!-- /.woocommerce-shipping-fields__field-wrapper -->
+                                                </div>
+                                                <!-- /.shipping_address -->
+                                            </div>
+                                            <!-- /.woocommerce-shipping-fields -->
+                                            <div class="woocommerce-additional-fields">
+                                                <div class="woocommerce-additional-fields__field-wrapper">
+                                                    <p class="form-row notes">
+                                                        <label>Order notes&nbsp;<span class="optional">(optional)</span>
+                                                        </label><span class="woocommerce-input-wrapper"><textarea class="input-text" placeholder="Notes about your order, e.g. special notes for delivery." rows="2" cols="5"></textarea></span>
+                                                    </p>
+                                                </div>
+                                                <!-- /.woocommerce-additional-fields__field-wrapper -->
+                                            </div>
+                                            <!-- /.woocommerce-additional-fields -->
+                                        </div>
+                                        <!-- /.col-2 -->
+                                    </div>
+                                    <!-- /.col2-set -->
+                                    <h3 id="order_review_heading">Your order</h3>
+                                    <div id="order_review" class="woocommerce-checkout-review-order">
+                                        <table class="col-lg-6 shop_table woocommerce-checkout-review-order-table">
+                                            <thead>
+                                                <tr>
+                                                    <th class="product-name">Product</th>
+                                                    <th class="product-total">Total</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="cart_item">
+                                                    <td class="product-name">Belt&nbsp; <strong class="product-quantity">&times; 1</strong>
+                                                    </td>
+                                                    <td class="product-total"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>55.00</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="cart_item">
+                                                    <td class="product-name">Beanie with Logo&nbsp; <strong class="product-quantity">&times; 1</strong>
+                                                    </td>
+                                                    <td class="product-total"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>18.00</span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr class="cart-subtotal">
+                                                    <th>Subtotal</th>
+                                                    <td><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>73.00</span>
+                                                    </td>
+                                                </tr>
+                                                <tr class="woocommerce-shipping-totals shipping">
+                                                    <th>Shipping</th>
+                                                    <td data-title="Shipping">
+                                                        <ul id="shipping_method" class="woocommerce-shipping-methods">
+                                                            <li>
+                                                                <input type="hidden" name="shipping_method[0]" data-index="0" id="shipping_method_0_flat_rate2" value="flat_rate:2" class="shipping_method">
+                                                                <label for="shipping_method_0_flat_rate2">Flat rate: <span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>4.99</span>
+                                                                </label>
+                                                            </li>
+                                                        </ul>
+                                                        <!-- /.woocommerce-shipping-methods -->
+                                                    </td>
+                                                </tr>
+                                                <!-- /.woocommerce-shipping-totals -->
+                                                <tr class="order-total">
+                                                    <th>Total</th>
+                                                    <td><strong><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#36;</span>77.99</span></strong>
+                                                    </td>
+                                                </tr>
+                                                <!-- /.order-total -->
+                                            </tfoot>
+                                        </table>
+                                        <!-- /.shop_table -->
+                                        <div id="payment" class="col-lg-6 woocommerce-checkout-payment">
+                                            <ul class="wc_payment_methods payment_methods methods">
+                                                <li class="wc_payment_method payment_method_bacs">
+                                                    <input type="radio" class="input-radio" id="payment_method_dbt" name="payment_method" value="bacs" checked="checked">
+                                                    <label for="payment_method_dbt">Direct bank transfer</label>
+                                                    <div class="payment_box payment_method_bacs">
+                                                        <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</p>
+                                                    </div>
+                                                </li>
+                                                <li class="wc_payment_method payment_method_cheque">
+                                                    <input type="radio" id="payment_method_cheque" class="input-radio" name="payment_method" value="cheque">
+                                                    <label for="payment_method_cheque">Check payments</label>
+                                                    <div class="payment_box payment_method_cheque" style="display:none">
+                                                        <p>Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
+                                                    </div>
+                                                </li>
+                                                <li class="wc_payment_method payment_method_cod">
+                                                    <input type="radio" id="payment_method_cod" class="input-radio" name="payment_method" value="cod">
+                                                    <label for="payment_method_cod">Cash on delivery</label>
+                                                    <div class="payment_box payment_method_cod" style="display:none">
+                                                        <p>Pay with cash upon delivery.</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <!-- /.payment_methods -->
+                                            <div class="form-row place-order">
+                                                <div class="woocommerce-terms-and-conditions-wrapper">
+                                                    <div class="woocommerce-privacy-policy-text">
+                                                        <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a href="#" class="woocommerce-privacy-policy-link"
+                                                            target="_blank">privacy policy</a>.</p>
+                                                    </div>
+                                                </div>
+                                                <button type="submit" class="button alt" value="Place order">Place order</button>
+                                            </div>
+                                            <!-- /.place-order -->
+                                        </div>
+                                        <!-- /.woocommerce-checkout-payment -->
+                                    </div>
+                                    <!-- /.woocommerce-checkout-review-order -->
+                                </form>
+                                <!-- /.woocommerce-checkout -->
+                            </div>
+                            <!-- /.woocommerce -->
+                        </div>
+                        <!-- .entry-content -->
+                    </article>
+                </main>
+                <!-- /.main-content -->
+            </div>
+            <!-- /.widget-list -->
+        </div>
+        <!-- /.main-wrappper -->
+        <div id="newsletter-modal" class="modal animated fadeInDown" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="row">
+                            <div class="col-sm-7" id="newsletter-modal__content-col">
+                                <p>For your convenience</p>
+                                <p id="newsletter-modal__subtitle">Try us out - cancel any time</p>
+                                <form class="form mb-5">
+                                    <div class="form-group">
+                                        <input type="email" name="newsletter_email" id="newsletter_email" placeholder="Enter your email address ..." class="form-control">
+                                    </div>
+                                    <!-- /.form-group -->
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-fancy">Start Free Trial<i class="ml-3 feather-arrow-right"></i>
+                                        </button>
+                                    </div>
+                                    <!-- /.form-group -->
+                                </form>
+                                <form class="w-100">
+                                    <div class="custom-control custom-checkbox custom-control-circle">
+                                        <input type="checkbox" class="custom-control-input" name="disable_newsletter_forever" id="disable_newsletter_forever">
+                                        <label class="custom-control-label" for="disable_newsletter_forever">Do not show popup any more</label>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- /.col-sm-7 -->
+                            <div class="col-sm-5 d-flex flex-column justify-content-end text-center text-white text-uppercase" id="newsletter-modal__side-col"><small class="fw-600 mb-3">Yoga classes for all</small>
+                                <h2 id="newsletter-modal__side-col-title">Own your practice</h2>
+                            </div>
+                            <!-- /.col-sm-5 -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.modal-body -->
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+    </div>
+    <!-- /.content-wrapper -->
+    <div class="widget-holder col-md-12 p-0" id="main-footer">
+        <div class="widget-bg text-white">
+            <div class="widget-body container-fluid">
+                <div class="row">
+                    <div class="col-md-10 mx-auto text-center">
+                        <figure class="mr-b-40">
+                            <a href="index.html">
+                                <img src="assets/img/logo-footer.png" alt="">
+                            </a>
+                        </figure>
+                        <!-- Footer Navigation -->
+                        <nav class="nav-container mr-b-20">
+                            <ul class="generic-nav">
+                                <li class="menu-item current-menu-item"><a href="index.html">Home</a>
+                                </li>
+                                <li class="menu-item"><a href="trainers.html">Trainers</a>
+                                </li>
+                                <li class="menu-item"><a href="classes.html">Classes</a>
+                                </li>
+                                <li class="menu-item"><a href="schedule.html">Schedule</a>
+                                </li>
+                                <li class="menu-item"><a href="shop.html">Shop</a>
+                                </li>
+                                <li class="menu-item"><a href="blog.html">Blog</a>
+                                </li>
+                            </ul>
+                            <!-- /.generic-nav -->
+                        </nav>
+                        <!-- /.nav-container -->
+                        <!-- Social Links -->
+                        <ul class="social-list social-list-colored-circle">
+                            <li><a href="twitter.com" class="bg-twitter"><i class="unicon-twitter"></i></a>
+                            </li>
+                            <li><a href="facebook.com" class="bg-facebook"><i class="unicon-facebook"></i></a>
+                            </li>
+                            <li><a href="instagram.com" class="bg-instagram"><i class="unicon-instagram"></i></a>
+                            </li>
+                            <li><a href="youtube.com" class="bg-youtube"><i class="unicon-youtube"></i></a>
+                            </li>
+                        </ul>
+                        <!-- /.social-list -->
+                    </div>
+                    <!-- /.col-md-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.widget-body -->
+        </div>
+        <!-- /.widget-bg -->
+    </div>
+    <!-- /.widget-holder -->
+    <div class="widget-holder col-md-12 p-0" id="main-subfooter">
+        <div class="widget-bg text-white">
+            <div class="widget-body container-fluid">
+                <div class="row">
+                    <div class="col-md-10 mx-auto text-center">
+                        <div class="text-center">
+                            <p class="fs-12 text-muted">Unifato © 2019 All rights reserved. Terms of Use and Privacy Policy.</p>
+                        </div>
+                    </div>
+                    <!-- /.col-md-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.widget-body -->
+        </div>
+        <!-- /.widget-bg -->
+    </div>
+    <!-- /.widget-holder -->
+    </div>
+    <!--/ #wrapper -->
+    <!-- Scripts -->
+    <script src="assets/vendors/jquery.min.js"></script>
+    <script src="assets/vendors/aos/aos.js"></script>
+    <script src="assets/vendors/stickybits/stickybits.min.js"></script>
+    <script src="assets/vendors/js-cookie/js.cookie.min.js"></script>
+    <script src="assets/vendors/lodash/lodash.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/vendors/slick-slider/slick.min.js"></script>
+    <script src="assets/js/template.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="http://localhost:35729/livereload.js"></script>
+</body>
+
+</html>

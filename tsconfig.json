@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "lib": ["es6", "dom", "es7"],
+      "strict": true,
+      "allowJs": true,
+      // "checkJs": true,
+      "noImplicitAny": false,
+      "noImplicitThis": false,
+      "esModuleInterop": true
+    },
+    "exclude": [
+      "node_modules",
+      "bower_components",
+      "templates.js"
+    ]
+  }
