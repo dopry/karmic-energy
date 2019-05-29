@@ -2,7 +2,7 @@
 title: For Festival Promoters
 date: 2017-01-01T00:00:00.000Z
 permalink: /for/promoters/index.html
-navtitle: Festival Promoters
+navtitle: Festival Producers
 tags:
   - nav
 ---
